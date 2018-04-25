@@ -1,0 +1,213 @@
+/*----------------------------- GlOBALS-------------------------*/
+textarea {
+    resize: none;
+}
+
+body {
+    background-color: #6e564d;
+}
+
+.well {
+    background-color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
+/*.carousel-inner .item {*/
+    /*transition: opacity;*/
+    /*opacity: 0;*/
+    /*/!*transition: opacity .5s ease-in-out;*!/*/
+/*}*/
+
+/*.carousel-inner .active .prev {*/
+    /*opacity: 1;*/
+    /*transition: opacity 2s ease-in-out;*/
+/*}*/
+
+
+
+.carousel-inner .item {
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -ms-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    transition: opacity 1s;
+}
+
+/*.carousel-inner {*/
+    /*background-image: url("../projectsSlider/1.jpg");*/
+    /*background-size: cover;*/
+
+/*}*/
+
+/*.carousel-inner .active .prev {left:0;opacity: 1;z-index:2;}*/
+
+/*.carousel-inner .active .left {left:0;opacity: 1;z-index:2;}*/
+.carousel-inner .next {left:0;opacity: 0.1;z-index:1;}
+
+/*----------------------------END GlOBALS----------------------------------*/
+
+/*-----------------------------CONTENT SECTION-----------------------------*/
+#content {
+    margin-top: 30px;
+}
+/*-----------------------------CONTENT SECTION-----------------------------*/
+
+
+/*----------------------------------------NAVIGATION--------------------*/
+#navigation .navbar {
+    background-color: #513D36;
+}
+
+#navigation #logo {
+    width: 80px;
+    height: 58px;
+}
+
+#logo {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+#navigation .navbar-header .navbar-brand {
+    font-size: 1.2em;
+    color: #E2C792;
+}
+
+#clear_top {
+    margin-top: 57px;
+}
+
+#myNavbar li a {
+    color: #E2C792;
+}
+
+#myNavbar li:hover a, .active  {
+    border-bottom: 2px solid #333;
+}
+
+
+/*-----------------------------------END NAVIGATION----------------------------------*/
+
+/*-----------------------------------PROJECTS---------------------------------------*/
+
+.projects {
+    /*padding-left: 20px;*/
+    background-color: #E2C792;
+}
+
+.projects h4 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.projects img {
+    padding-left: 15px;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+.projectContainer {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/*-----------------------------------END PROJECTS------------------------------------*/
+
+/*------------------------------------MAIN---------------------------------------------*/
+.services {
+    min-height: 461px;
+}
+
+#referencii {
+    display:inline-block;
+}
+
+.declaration {
+    margin-bottom: 30px;
+}
+
+.declaration img, #referencii img {
+    display: inline-block;
+
+}
+
+#referencii img {
+    height: 340px;
+}
+
+#referenciiContainer {
+    min-height: 461px;
+    /*min-height: 441px;*/
+}
+
+#aboutUs {
+    min-height: 257px;
+}
+/*--------------------------------------END MAIN----------------------------------------*/
+
+/*------------------------------------CONTACTS---------------------------------------------*/
+#sendMessage {
+    /*float: right;*/
+}
+
+.leftMargin {
+    /*margin-left: 5%;*/
+}
+
+#map {
+    height: 300px;
+    /*height: 50%;*/
+    width: 100%;
+}
+
+label {
+    width: 100%;
+}
+
+#sendMessage input {
+    margin-bottom: 10px;
+}
+
+#sendMessage input[type="submit"] {
+    margin: 4px 0px 4px 4px;
+    float: right;
+    color: #333;
+}
+
+/*--------------------------------------END CONTACTS----------------------------------------*/
+
+/*------------------------------------PROJECT VIEW---------------------------------------------*/
+.projectImage {
+    /*margin-bottom: 15px;*/
+    /*padding: 30px;*/
+}
+
+.description {
+    padding: 15px;
+    text-align: justify;
+}
+
+.description h3 {
+    padding-bottom: 10px;
+}
+
+
+/*--------------------------------------END PROJECT VIEW----------------------------------------*/
+
+
